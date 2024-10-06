@@ -1,0 +1,32 @@
+{
+  "name": "poll",
+  "version": "1.0.0",
+  "description": "A decentralized voting application using zk-STARKs for privacy.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run build",
+    "test": "npm test"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.0",
+    "truffle": "^5.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkpv/poll"
+  },
+  "author": "Pessoa Jr",
+  "license": "MIT",
+  "homepage": "https://github.com/zkpv/poll#readme"
+}

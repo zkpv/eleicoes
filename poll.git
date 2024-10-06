@@ -1,0 +1,24 @@
+voting-dapp/
+├── artifacts/
+│   └── VotingContract.json
+├── contracts/
+│   ├── StarknetMessaging.sol
+│   ├── VotingContract.sol
+│   └── zkSTARKVotingVerifier.sol
+├── tests/
+│   ├── StarknetMessaging.test.js
+│   ├── VotingContract.test.js
+│   └── zkSTARKVotingVerifier.test.js
+├── src/
+│   ├── components/
+│   │   ├── CandidateRegistration.js
+│   │   └── Dashboard.js
+│   ├── App.js
+│   └── index.js
+├── public/
+│   ├── index.html
+│   ├── candidate-registration.html
+│   └── voting.html
+├── package.json
+├── README.md
+└── .gitignore
